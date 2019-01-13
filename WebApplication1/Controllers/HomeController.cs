@@ -8,6 +8,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers {
     public class HomeController : Controller {
+        [Rout("Home/Index")]
         public IActionResult Index() {
             return View();
         }
